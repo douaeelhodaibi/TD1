@@ -162,9 +162,9 @@ Point Point :: m_creator(double x, double y)//creer un point--impo de travailler
     return P1;
 }
 
-};
-//main.cpp
 #endif // POINT_H
+
+//main.cpp
 #include <iostream>
 #include "Point.h"
 
