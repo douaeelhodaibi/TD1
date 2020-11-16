@@ -6,6 +6,6 @@ int main()
     a.m_empiler(1);
     a.m_empiler(2);
     a.m_empiler(3);
-    a.m_afficherPile();
+    a.m_affPile();
     a.m_depiler(1);
 }
