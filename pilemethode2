@@ -1,0 +1,52 @@
+#include <iostream>
+#include <stack>
+using namespace std;
+
+int main()
+{
+    char y;
+    char x;
+    stack<char> pile;
+    stack<char> pile_1;
+
+
+    if(pile.size() == 0){
+    pile.push(x);
+    }//empiler
+
+  if(!pile.empty()){
+   pile.pop();//depiler
+    }
+ if (pile.empty()) {//tester si pile vide
+        cout << "True";
+    }
+    else {
+        cout << "False";
+    }
+
+while (!pile.empty()) {
+        cout << ' ' << pile.top();//afficher
+}
+
+ if(!pile.size() == 0){
+ cout << ' ' << pile.top();}//afficher le sommet
+ if (pile.size()==0) {
+    cout <<"pile vide";}
+
+
+
+ pile_1.size() == 0;
+
+  while (!pile.empty()) {
+        char k;
+        k=pile.top();
+        pile_1.top()=k;
+        pile.pop();
+         }
+
+while (!pile_1.empty()) {
+        cout << ' ' << pile_1.top();//afficher piiler inversŽe
+}
+
+
+}
