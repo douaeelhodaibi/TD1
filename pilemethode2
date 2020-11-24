@@ -45,7 +45,7 @@ while (!pile.empty()) {
          }
 
 while (!pile_1.empty()) {
-        cout << ' ' << pile_1.top();//afficher piiler inversŽe
+        cout << ' ' << pile_1.top();//afficher pile inverse
 }
 
 
